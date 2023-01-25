@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RoboCoop</title>
+  </head>
+  <nav>
+
+  </nav>
+  <body>
+    <h1>RoboCoop</h1>
+
+    <p>RoboCoop est un club de robotique baser a l'ISTIC de l'université de Rennes</p>
+
+    <!--Inserer page -->
+
+      <div class="porte">
+          <h2>Ouverture du club</h2>
+          <p>L'état de l'ouverture du club peut être connu ici grace a un ingénieux systeme d'asp qui detecte lorsque la porte est ouverte ou non !</p>
+
+          <h3 id="door">État du club: Ouvert</h3>
+
+          <script type="text/javascript">
+            var x = 0;
+            if(x>=0) {
+              document.getElementById('door').innerHTML = "État du club: Fermer"
+            } else {
+              document.getElementById("door").innerHTML = "État du club: Ouvert"
+            }
+          </script>
+      </div>
+
+    <li>
+      <u>Notre <a href="https://discord.gg/SGbSNtfEm9">Discord</a> est par ici !</u>
+    </li>
+
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
